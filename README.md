@@ -62,12 +62,28 @@ Somewhere near the bottom, you should see a line like this.
 
 SUCCESS: [subdomain.topleveldomain -- Updated Successfully to ***********
 
+We can also make sure the Daemon is running by running;
+```
+htop
+```
+and looking for ddclient
+
+
+
+##Some ddclient options
 
 ddclient options - https://sourceforge.net/p/ddclient/wiki/usage/ 
 
 ```
+sudo ddclient -query
+```
+```
 sudo ddclient
 ```
+```
+sudo ddclient -daemon=0 -debug -verbose -noquiet
+```
+
 ```
 sudo ddclient -daemon=0 -verbose -noquiet -force
 ```
