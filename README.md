@@ -70,7 +70,7 @@ and looking for ddclient
 
 
 
-##Some ddclient options
+## Some ddclient options
 
 ddclient options - https://sourceforge.net/p/ddclient/wiki/usage/ 
 
