@@ -62,3 +62,13 @@ Somewhere near the bottom, you should see a line like this.
 
 SUCCESS: [subdomain.topleveldomain -- Updated Successfully to ***********
 
+
+ddclient options - https://sourceforge.net/p/ddclient/wiki/usage/ 
+
+```
+sudo ddclient
+```
+```
+sudo ddclient -daemon=0 -verbose -noquiet -force
+```
+
