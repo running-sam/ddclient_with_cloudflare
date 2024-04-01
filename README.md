@@ -1,4 +1,4 @@
-# Using ddclient to update wireguard DNS records
+# Using ddclient to update Cloudflare DNS records
 
 using ddclient to update Cloudflare DNS on Raspberry Pi Dynamic DNS allows for a record to be automatically updated. These are the steps on how to configure ddclient on your Raspberry Pi.
 
