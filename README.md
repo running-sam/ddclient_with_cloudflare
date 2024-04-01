@@ -37,7 +37,9 @@ Delete what is in the configeration file and replace it with (updating "Update M
 daemon=300 # check every 300 seconds
 ssl=yes # use ssl-support
 protocol=cloudflare
-use=web
+use=web # get IP with website below
+web='https://cloudflare.com/cdn-cgi/trace'
+
 login=[CLOURDFLARE LOGIN EMAIL ADDRESS] ## Update Me
 password=[CLOUDFLARE GLOBAL API KEY] ## Update Me
 zone=[top level domain you want to change] ## Update Me
